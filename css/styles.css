@@ -128,10 +128,14 @@ img {
 /* <<<---HERO--->>> */
 
 .hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: #2f303a;
 }
 
 .hero-title {
@@ -174,6 +178,7 @@ img {
 }
 
 .style-title {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -206,6 +211,18 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.advantage-cards {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  align-items: center;
 }
 
 /* <<<---ЧЕМ МИ ЗАНЕМАЕМСЯ--->>> */
@@ -288,6 +305,63 @@ img {
   letter-spacing: 0.03em;
 }
 
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-soc-link {
+  margin-top: 16px;
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #2196f3;
+}
+.team-soc-link:hover,
+.team-soc-link:focus .team-icons:hover,
+.team-icons:focus {
+  fill: #ffffff;
+}
+.team-icons {
+  fill: #afb1b8;
+}
+/* <<<---CLIENT--->>> */
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-item {
+  margin-top: 50px;
+  border: 1px solid #afb1b8;
+}
+
 /* <<<---FOOTER--->>> */
 
 .footer {
@@ -334,6 +408,17 @@ img {
   letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* .section {
