@@ -224,12 +224,12 @@ img {
   color: var(--primary-text-color);
 }
 
-.advantage-cards { 
+.advantage-cards {
   display: flex;
   justify-content: center;
   border-radius: 4px;
   background-color: #f5f4fa;
-   height: 120px;
+  height: 120px;
   align-items: center;
 }
 
@@ -309,6 +309,7 @@ img {
 }
 
 .position-team {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
