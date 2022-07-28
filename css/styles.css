@@ -375,10 +375,10 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #afb1b8;
 }
 
 .client-item {
-  fill: #afb1b8;
   margin-top: 50px;
 }
 
